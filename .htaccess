@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([_A-Za-z0-9-]+)/?$ index.php?redirect=$1	[QSA,NC,L]
+RewriteRule ^api/(.*)$ index.php?api=$1
