@@ -15,12 +15,13 @@ $site_url="http://localhost/short/"; // Use URL Like http://site.com/
 ```
 API Usage
 ============================
-Use GET method to Send data to API (http://yoursite.com/api/.<br>
+Use GET method to Send data to API (http://yoursite.com/api/).<br>
 EX:<br>
 GET Method
 ```
 curl_setopt($ch, CURLOPT_URL, 'http://s.sajim.im/api/http://xxxx.com/');
 ```
+Data Output in json , use simple json decode 
 
 
 Benefits
